@@ -15,7 +15,7 @@ See http://ibis-project.org
 
 VERSION = sys.version_info.major, sys.version_info.minor
 
-impala_requires = ['hdfs>=2.0.16', 'sqlalchemy>=1.1,<1.3.7', 'requests']
+impala_requires = ['hdfs>=2.0.16', 'sqlalchemy>=1.1,<1.3.20', 'requests']
 impala_requires.append('impyla[kerberos]>=0.15.0')
 
 sqlite_requires = ['sqlalchemy>=1.1,<1.3.7']
